@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Murali K</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	</head>
+
+
+
+	<div class="sidebar" id="myNav">
+		<div class="sidebar-content" >
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<ul class="socials">
+				<li><a href="https://www.linkedin.com/in/murali-krishna-209656229/"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"/></a></li>
+				<li><a href="https://www.instagram.com/narut_0jet/" target="_blank"><img src="https://img.icons8.com/material-outlined/30/ffffff/instagram-new--v1.png"/></a></li>
+				<li><a href="https://twitter.com/Muralik_rishna"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter--v1.png"/></a></li>
+				<li><a href="https://www.reddit.com/user/narutokrishna123"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/reddit.png"/></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<nav class="navbar">
+		<a href="index.html"><img class="logo" src="images/logo-img.png" alt="" width="60"></a>
+		<span class="hamburger" onclick="openNav()"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" id="hamburger" width="40px"></span>
+	</nav>
+
+
+	<body onload="afterLoad();">
+
+		
+		<!-- page loader -->
+		<div class="loader" id="loader">
+		</div>
+
+		<section class="home">
+			<div class="home-el">
+				<!-- <video autoplay muted loop class="bg"><source src="vdo/particle.mp4"></video>														 -->
+				<h1><span class="animate"></span></h1>
+				<img src="https://www.stevenolver.com/wp-content/uploads/revslider/slider_fullscreen/54414-2001.png" class="scroll-down" style="width: 72px;" onclick="scrollDown()">
+			</div>
+		</section>
+
+
+		<section class="about-me" id="about">
+			<h1 data-aos="fade-down" data-aos-duration="500">About Me</h1>
+			<div class="container">
+				<div class="who" data-aos="fade-right" data-aos-duration="1000">
+					<img src="https://img.icons8.com/material/48/fa314a/gender-neutral-user--v1.png"/>
+					<h3>Who am I?</h3>
+					<p>I'm Murali Krishna and I'm a passionate 3D/VFX Artist with an experience of over 1 year working in some ambitious projects of mine.</p>
+				</div>
+				<div class="what" data-aos="fade-up" data-aos-duration="1000">
+					<img src="https://img.icons8.com/material-outlined/48/fa314a/monitor.png"/>
+					<h3>What do I do?</h3>
+					<p>As a generalist I tackle almost all aspects of post production whether it be 3D animation, VFX, Compositing, etc...</p>
+				</div>
+				<div class="location"data-aos="fade-left" data-aos-duration="1000">
+					<img src="https://img.icons8.com/material-outlined/48/fa314a/worldwide-location.png"/>
+					<h3>Where do I live?</h3>
+					<p>I live in Toronto, Canada but I'm originally from Gods Own Country Kerala, India and I'm studying at Seneca University.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="software">
+
+			<h1  data-aos="fade-up" data-aos-duration="1000">Softwares</h1>
+			<div class="grid-container">
+				<div class="grid" data-aos="zoom-in" data-aos-delay="0">
+					<img src="https://img.icons8.com/color/64/000000/adobe-photoshop--v2.png"/>
+					<h3>Photoshop</h3>
+					<div class="overlay">
+						<p>Adobe Photoshop is the predominant photo editing and manipulation software.</p>
+					</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="100">
+					<img src="https://img.icons8.com/color/64/000000/adobe-after-effects--v1.png"/>
+					<h3>After Effects</h3>
+					<div class="overlay">
+						<p>Adobe After Effects is a digital visual effects, motion graphics, and compositing application.</p>
+					</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="200">
+					<img src="https://img.icons8.com/color/64/000000/adobe-premiere-pro.png"/>
+					<h3>Premiere Pro</h3>
+					<div class="overlay">
+						<p>Adobe Premiere Pro is a timeline-based video editing software application.</p>
+					</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="300">
+					<img src="https://img.icons8.com/color/64/000000/adobe-illustrator--v2.png"/>
+					<h3>Illustrator</h3>
+					<div class="overlay">
+						<p>Adobe Illustrator is a vector graphics editor and design program.</p>
+					</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="400">
+					<img src="https://img.icons8.com/fluency/64/000000/blender-3d.png"/>
+					<h3>Blender</h3>
+					<div class="overlay">
+						<p>Blender is a free and open-source 3D computer graphics software toolset.</p>
+					</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="500">
+					<img src="https://img.icons8.com/color/64/000000/autodesk-maya.png"/>
+					<h3>Maya</h3>
+					<div class="overlay">
+						<p>Maya is a professional 3D animation, modeling, simulation, and rendering toolset.</p>
+					</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="600">
+					<img src="https://img.icons8.com/color/64/000000/davinci-resolve.png"/>
+					<h3>Davinci Resolve</h3>
+					<div class="overlay">
+						<p>DaVinci Resolve is a color grading and non-linear video editing application.</p>
+						</div>
+				</div>
+				<div class="grid" data-aos="zoom-in" data-aos-delay="700">
+					<img src="https://img.icons8.com/color/64/000000/3ds-max.png"/>
+					<h3>3Ds Max</h3>
+					<div class="overlay">
+						<p>3D modeling and rendering software for design visualization, games, and animation.</p>
+					</div>
+				</div>
+		</div>
+		
+		</section>
+
+		<section class="projects" id="projects">
+			<div class="div-projects">
+				<h1 data-aos="fade-up" data-aos-duration="1000">Projects</h1>
+				<div class="grid-container">
+					<div class="grid-item tall" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+						<video autoplay muted loop src="https://www.dropbox.com/s/xaev8mu2qy55b2v/vfx.mp4?raw=1"></video>
+						<span class="overlay"><h3>VFX</h3></span>
+					</div>
+					<div class="grid-item wide" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+						<video autoplay muted loop src="https://www.dropbox.com/s/woegacmobaywy0e/bg-color.mp4?raw=1"></video>
+						<span class="overlay"><h3>Rainy Road</h3></span>
+					</div>
+					<div class="grid-item norm" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+						<span class="img"><img src="images/Isometric.png"></span>
+						<span class="overlay"><h3>Isometric Room</h3></span>
+					</div>
+					<div class="grid-item norm" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">	
+						<span class="img"><img src="images/GasStation.jpg"></span>
+						<span class="overlay"><h3>Gas Station</h3></span>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="details" data-aos="fade-right" data-aos-delay="250">
+			<div class="column exp">
+				<div class="counter" id="counter" data-target="3725">0</div>
+				<h3>Hours of Experience</h3>
+			</div>
+			<div class="column coffee">
+				<div class="counter" id="counter" data-target="52">0</div>
+				<h3>Cups of Coffee</h3>
+			</div>
+			<div class="column great-projects">
+				<div class="counter" id="counter" data-target="63">0</div>
+				<h3>Great Projects</h3>
+			</div>
+			<div class="column customers">
+				<div class="counter" id="counter" data-target="0">0</div>
+				<h3>Unhappy Customers</h3>
+			</div>
+		</section>
+
+
+		<section class="contact-me">
+			<h1  data-aos="fade-up" data-aos-delay="250">Get In Touch</h1>
+			<div class="container" data-aos="fade-up" data-aos-delay="500">
+				<div class="column left">
+					<h3>Send a Message</h3>
+					<form action="https://airform.io/hemuhemu85672@gmail.com" method="POST">
+						<div class="first">
+							<input id="name" name="First-Name" style="margin-top: 10px;" type="text" required placeholder="First Name" >
+							<input id="name" name="Last-Name" style="margin-top: 10px;" type="text" required placeholder="Last Name">
+						</div>
+						<div class="middle">
+							<input id="email" name="Email" type="email" style="margin-top: 10px;" placeholder="Email">
+						</div>
+						<div class="third" style="padding-top: 10px;">
+							<textarea id="message" name="Message" required placeholder="Message" rows="2"></textarea>
+						</div>
+						<div class="button">
+							<button type="submit" style="margin-top: 10px;">Send Message</button>
+						</div>
+					</form>					
+				</div>
+				<div class="column right">
+					<h3>Contact Info</h3>
+					<div class="row">
+						<img src="https://img.icons8.com/ios-filled/30/DC143C/phone.png">
+						<p>+91 9496612152</p>
+					</div>
+					<div class="row">
+						<img src="https://img.icons8.com/ios-glyphs/30/DC143C/discord-logo.png">
+						<p>NARUTO chepu#0052</p>
+					</div>
+					<div class="row">
+						<img src="https://img.icons8.com/ios-glyphs/30/DC143C/new-post.png">
+						<p>muraliachu777@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Scripts  -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>			
+		
+		<script>
+			AOS.init({once:true});
+
+			$(function() {
+			$('.column').waypoint(function() {
+				counter();
+			}
+			, {
+				offset: '100%'
+			});
+			});
+		</script>
+	</body>
+
+</html>
